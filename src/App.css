@@ -1,0 +1,35 @@
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding: 50px;
+  font-size: 24px;
+  border-bottom: 1px solid #333;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.menu li {
+  width: 24%;
+  background: #333;
+  line-height: 42px;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  border-radius: 6px;
+}
+.list {
+  margin-top: 30px;
+}
+.list li {
+  list-style: none;
+  line-height: 52px;
+  border-bottom: 1px solid #ddd;
+}
+.price {
+  float: right;
+}
